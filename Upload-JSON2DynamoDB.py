@@ -8,8 +8,9 @@ AWS_ACCESS = ""
 AWS_SECRET = ""
 AWS_REGION = ""
 TABLE_NAME = ""
+JSON_FILE = ""
 
-f = open('file.json')
+f = open(JSON_FILE)
 distros_dict = json.load(f)
 
 items = []
